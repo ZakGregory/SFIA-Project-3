@@ -2,7 +2,7 @@ resource "azurerm_network_security_group" "akssg" {
   name                = "akssg"
   location            = "UK South"
   resource_group_name = var.rg_name
-  depends_on          = [module.ResourceGroup.azurerm_resource_group.aksrg]
+  depends_on          = [azurerm_resource_group.aksrg]
 
   security_rule {
     name                       = "Allow_SSH"
