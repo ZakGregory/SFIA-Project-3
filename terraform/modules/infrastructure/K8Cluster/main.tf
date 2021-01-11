@@ -4,10 +4,11 @@ resource "azurerm_kubernetes_cluster" "akscluster" {
   resource_group_name = var.rg_name
   private_cluster_enabled = true
   dns_prefix          = "sifa3aks1"
+  depends_on              = [var.rgReference]
 
   default_node_pool {
     name       = "aksnodepool"
-    node_count = var.nodes_count
+    nodes_count = var.nodes_count
     vm_size    = var.vm_size
     os_disk_size_gb = 20
     #type = VirtualMachineScaleSets
