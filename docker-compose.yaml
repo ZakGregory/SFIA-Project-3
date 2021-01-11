@@ -23,4 +23,4 @@ services:
       published: 8080
       protocol: tcp
     depends_on:
-    - back-end 
+    - backend 
