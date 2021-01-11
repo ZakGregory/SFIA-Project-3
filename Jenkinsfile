@@ -1,6 +1,5 @@
 pipeline{
     agent any
- k8s-setup
     stages{
         stage('Setup') {
             steps {
