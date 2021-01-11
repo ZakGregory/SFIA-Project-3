@@ -1,3 +1,3 @@
-variable "sg_name" {
+variable "rg_name" {
   
 }
