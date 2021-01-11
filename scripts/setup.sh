@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sudo sh  ./finalQA/terraform/environments/production/production_env_setup.sh
-
-#source f/terraform/environments/testing/testing_env_setup,sh
+cd terraform/environments/production
+terraform init 
+terraform plan --var-file=production.tfvars -out=production_plan
+terraform apply "production_plan"
