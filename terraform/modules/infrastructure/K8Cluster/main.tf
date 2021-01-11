@@ -1,4 +1,4 @@
-resource "azurerm_kubernetes_cluster" "aks_cluster" {
+resource "azurerm_kubernetes_cluster" "akscluster" {
   name                = "AKSCluster"
   location            = "UK South"
   resource_group_name = var.rg_name

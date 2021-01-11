@@ -1,7 +1,7 @@
-resource "azurerm_network_security_group" "aks_sg" {
-  name                = "SecurityGroup"
+resource "azurerm_network_security_group" "akssg" {
+  name                = var.sg_name
   location            = "UK South"
-  resource_group_name = var.rg_name
+  resource_group_name = var.sg_name
 
   security_rule {
     name                       = "Allow_SSH"

@@ -15,6 +15,6 @@ module "K8Cluster" {
 module "SecurityGroup" {
   source = "./SecurityGroup"
 
-  rg_name = var.rg_name
+  rg_name = var.sg_name
 }
 
