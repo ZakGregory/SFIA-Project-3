@@ -6,11 +6,11 @@ pipeline{
                 sh "./scripts/setup.sh"
             }
         }
-        /*stage('Test'){
+        """stage('Test'){
             steps{
                 sh "./scripts/test.sh"
             }
-        }*/
+        }
         stage('Build'){
             steps{
                 sh "./scripts/build.sh"
@@ -25,6 +25,6 @@ pipeline{
            steps{
                 sh "./scripts/deploy.sh"
             }
-        }
+        }"""
     }
 }
