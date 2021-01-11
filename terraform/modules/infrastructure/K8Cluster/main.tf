@@ -8,7 +8,7 @@ resource "azurerm_kubernetes_cluster" "akscluster" {
 
   default_node_pool {
     name       = "aksnodepool"
-    nodes_count = var.nodes_count
+    node_count = var.nodes_count
     vm_size    = var.vm_size
     os_disk_size_gb = 20
     #type = VirtualMachineScaleSets
