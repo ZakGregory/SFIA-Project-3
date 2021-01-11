@@ -8,4 +8,6 @@ variable "vm_size"{
 }
 
 variable "rgReference" {
+  
 }
+
