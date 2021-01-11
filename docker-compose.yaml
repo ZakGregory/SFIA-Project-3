@@ -1,0 +1,26 @@
+version: "3.7"
+services: 
+  mysql:
+    image: qateam1/database:latest
+    ports:
+    - target: 3306
+      published: 3306
+      protocol: tcp
+      
+
+  back-end:
+    image: qateam1/back:latest
+    ports:
+    - target: 9966
+      published: 9966
+      protocol: tcp
+
+
+  front-end:
+    image: qateam1/front:latest
+    ports:
+    - target: 8080
+      published: 8080
+      protocol: tcp
+    depends_on:
+    - back-end 
