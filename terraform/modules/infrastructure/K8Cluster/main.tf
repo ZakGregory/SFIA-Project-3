@@ -2,7 +2,6 @@ resource "azurerm_kubernetes_cluster" "akscluster" {
   name                = "AKSCluster"
   location            = "UK South"
   resource_group_name = var.rg_name
-  private_cluster_enabled = true
   dns_prefix          = "sifa3aks1"
   depends_on = [var.rgReference]
 
