@@ -1,4 +1,4 @@
-#!/bin.bash
+#!/bin/bash
 
 kubectl apply -f ./K8s/backend/backend.yaml
 kubectl apply -f ./K8s/database/database.yaml
