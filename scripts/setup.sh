@@ -16,6 +16,6 @@ sudo terraform apply "production_plan"
 
 echo "Connect to AKS cluster----------------"
 
-az aks get-credentials --resource-group productionResource --name AKSCluster
+az aks get-credentials --resource-group productionResource --name AKSCluster -y
 
 cd ../../..
