@@ -1,6 +1,5 @@
 #!/bin/bash
-pwd
-cd ~/QA_final/finalQA/K8s
+cd K8s/
 kubectl create -f ./K8s/backend/backend.yaml
 kubectl create -f ./K8s/database/database.yaml
 kubectl create -f ./K8s/database/databasepersistent.yaml
