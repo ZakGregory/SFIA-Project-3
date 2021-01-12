@@ -6,7 +6,7 @@ echo "Terraform initalise----------------"
 
 sudo terraform init 
 
-echo "Terraform plan---------------"
+echo "Terraform plan----------------"
 
 sudo terraform plan --var-file=production.tfvars -out=production_plan
 
