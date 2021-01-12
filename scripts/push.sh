@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo docker login
+sudo docker login -u $dockeruser -p $dockerpword
 sudo docker-compose push
