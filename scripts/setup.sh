@@ -20,5 +20,4 @@ az aks get-credentials --resource-group productionResource --name AKSCluster
 
 cd ../../..
 pwd
-ls
-cd scripts/
+
