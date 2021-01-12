@@ -2,7 +2,7 @@
 
 cd terraform/environments/production
 
-echo "Terraform initalise---------------"
+echo "Terraform initalise----------------"
 
 sudo terraform init 
 
