@@ -1,5 +1,6 @@
 FROM maven:3.6.3-jdk-8 AS build
-COPY . .
+WORKDIR /build
+COPY . /build
 RUN mvn clean package
 
 FROM java:8
