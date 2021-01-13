@@ -100,8 +100,20 @@ The Trello Board was essentially the backbone of our project. It assisted us to 
 <a name="tera"></a>
 ### Terraform
 
+As a group we decided to use Terraform to build our infrastructure on Azure since it would help us automate the process of building the infrastructure needed to run and deploy the PetClinic application. Terraform built Resource group, Kubernetes cluster and network security group. By using Terraform it allowed us to:
+
+- Speed up the process of development through automation
+- Reduced development time, we were able to concentrate on other tasks
+- Super portable, one language that helped us describe all the resource we needed on Azure
+
+Terraform files used in our project can be found **here**
+
 <a name="k8"></a>
 ### Kubernetes
+
+As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is a container orchestration system for Docker containers that is far more complex than Docker Swarm. It comes with more advantages such as allowing us to automate the deployment of a cluster in Azure using Azure Kubernetes Service (AKS). Kubernetes can also seamlessly integrate other services such as load balancing into our pods. This was implemented in our project as we configured an nginx pod to balance traffic coming into the PetClinic website. 
+
+Kubernetes yaml files used in our project can be found **here**
 
 <a name="risk"></a>
 ## Risk Assessment
