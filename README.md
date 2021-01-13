@@ -10,16 +10,14 @@
     - [MoSCoW](#mos)
 - [Architecture](#arch)
     - [CI Pipeline](#ci)
-    - [Kubernetes](#k8)
-- [Project Tracking](#project)
-- [Risk Assessment](#risk)
-- [Testing](#test)
-- [Technologies Used](#tech)
+    - [Project Tracking](#project)
     - [Git](#git)
     - [Docker](#doc)
     - [Jenkins](#jenk)
     - [Terraform](#tera)
-    - [Kubernetes](#k82)
+    - [Kubernetes](#k8)
+- [Risk Assessment](#risk)
+- [Testing](#test)
 - [PetClinic Frontend](#FE)
 - [Successes](#suc)
 - [Future Improvements](#improve)
@@ -77,27 +75,18 @@ MoSCoW prioritisation was used to order our tasks to initially meet the minimum 
 - Nexus registry 
 - Integration testing 
 
-
 <a name="arch"></a>
 ## Architecture
 
 <a name="ci"></a>
 ### CI Pipeline
 
-<a name="k8"></a>
-### Kubernetes
+Below is a diagram of the CI Pipeline that illustrates the deployment process:
 
 <a name="project"></a>
-## Project Tracking
+### Project Tracking
 
-<a name="risk"></a>
-## Risk Assessment
-
-<a name="test"></a>
-## Testing
-
-<a name="tech"></a>
-## Technologies Used
+The Trello Board was essentially the backbone of our project. It assisted us to define all the tasks that needed to be completed and by when (via the use of sprints). We frequently updated the Trello board to ensure that tasks marked as completed and to check what needs to be done next or what has been missed. A screenshot of our Trello board can be seen below:
 
 <a name="git"></a>
 ### Git
@@ -111,8 +100,14 @@ MoSCoW prioritisation was used to order our tasks to initially meet the minimum 
 <a name="tera"></a>
 ### Terraform
 
-<a name="k82"></a>
+<a name="k8"></a>
 ### Kubernetes
+
+<a name="risk"></a>
+## Risk Assessment
+
+<a name="test"></a>
+## Testing
 
 <a name="FE"></a>
 ## PetClinic Frontend
