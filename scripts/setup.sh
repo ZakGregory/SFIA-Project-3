@@ -1,6 +1,21 @@
 #!/bin/bash
 
 cd terraform/environments/production
-terraform init 
-terraform plan --var-file=production.tfvars -out=production_plan
-terraform apply "production_plan"
+
+echo "Terraform initalise----------------"
+
+sudo terraform init 
+
+echo "Terraform plan----------------"
+
+sudo terraform plan --var-file=production.tfvars -out=production_plan
+
+echo "Terraform apply---------------"
+
+sudo terraform apply "production_plan"
+
+echo "Connect to AKS cluster----------------"
+
+az aks get-credentials --resource-group productionResource --name AKSCluster 
+
+cd ../../..

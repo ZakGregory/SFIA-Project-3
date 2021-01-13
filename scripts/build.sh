@@ -1,3 +1,2 @@
-#!/bin.bash
-
+#!/bin/bash
 sudo docker-compose build
