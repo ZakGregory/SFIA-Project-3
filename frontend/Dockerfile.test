@@ -1,6 +1,6 @@
 ARG DOCKER_HUB="docker.io"
 
-FROM $DOCKER_HUB/library/node:10.10-alpine as build
+FROM $DOCKER_HUB/library/node:10.10-alpine
 
 
 COPY . /workspace/
@@ -12,4 +12,4 @@ RUN echo "registry = \"$NPM_REGISTRY\"" > /workspace/.npmrc                     
     npm install                                                                          && \
     npm run build
 
-ENTRYPOINT["np", "test"]
+ENTRYPOINT ["np", "test"]
