@@ -9,7 +9,7 @@ spec:
   - protocol: TCP
     port: 8080
     targetPort: 8080
-  type: LoadBalancer
+
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -30,4 +30,5 @@ spec:
       - name: frontend
         image: team4qa/front:latest
         ports:
-        - containerPort: 8080
+        - name: frontend-port
+          containerPort: 8080

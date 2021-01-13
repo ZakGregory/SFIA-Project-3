@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: team4qa/nginx
+        image: team4qa/nginx:latest
         ports:
           - containerPort: 80
