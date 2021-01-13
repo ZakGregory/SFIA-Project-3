@@ -91,11 +91,21 @@ The Trello Board was essentially the backbone of our project. It assisted us to 
 <a name="git"></a>
 ### Git
 
+Git was used as a version control system alongside GitHub to store our code in a repository for all members to access. A really useful feature of GitHub is its branch-based workflow system. This allowed us to regularly commit code into separate branches and only merge with the main branch after being reviewed by the team. All branches that have been made were kept and not deleted for the purpose of the project. 
+
 <a name="doc"></a>
 ### Docker
 
+Docker was used as a containerisation tool; it was our chosen tool as during the training academy we spent a good amount of time learning Docker and we used it previously in our practical SIFA2 project. Docker images are useful as they are compatible with other tools that we used such as Kubernetes, allowing for a smooth and lightweight deployment of the application. 
+
 <a name="jenk"></a>
 ### Jenkins
+
+Jenkins was used as the Continuous integration (CI) server that allowed the application to be deployed easily via a Jenkins Pipeline job. A Jenkinsfile was used to define the Jenkins pipeline, which is then checked into source control. The benefits of using a Jenkinsfile:
+
+- Single source of truth for the Pipeline, which can be viewed and edited by multiple members
+- Code review/iteration on the Pipeline
+- Audit trail for the Pipeline
 
 <a name="tera"></a>
 ### Terraform
@@ -106,14 +116,10 @@ As a group we decided to use Terraform to build our infrastructure on Azure sinc
 - Reduced development time, we were able to concentrate on other tasks
 - Super portable, one language that helped us describe all the resource we needed on Azure
 
-Terraform files used in our project can be found **here**
-
 <a name="k8"></a>
 ### Kubernetes
 
 As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is a container orchestration system for Docker containers that is far more complex than Docker Swarm. It comes with more advantages such as allowing us to automate the deployment of a cluster in Azure using Azure Kubernetes Service (AKS). Kubernetes can also seamlessly integrate other services such as load balancing into our pods. This was implemented in our project as we configured an nginx pod to balance traffic coming into the PetClinic website. 
-
-Kubernetes yaml files used in our project can be found **here**
 
 <a name="risk"></a>
 ## Risk Assessment
