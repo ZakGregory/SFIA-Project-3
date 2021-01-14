@@ -198,6 +198,18 @@ Agile-driven appraoch:
 <a name="improve"></a>
 ## Future Improvements
 
+### Testing area/vm 
+    setting up a proper testing environment before it is deplooyed would be introduced as this would potentially reduce down time for users and allow teh development team to do testing with no knock on effect to the up and running application.
+
+### sleeker automation
+    Make it so that you just have to run a single script to run anad download and set up all environments for easier protiabillity 
+
+### scale sets 
+    Intoroduce scale sets so that if teh client was growing in size it would be easier to deploy the app in a larger clusters and other region if teh client was going international. lastly set up auto scaling where teh cluster is monitored and depending on the amount of traffic the app is recieving, scale up and or down the deployment reducing risk of paying for unused resources.
+
+
+
+
 ## Authors
 - Anas Aboungab
 - George Rhodes
