@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name:  backend
-          image: team4qa/back:latest
+          image: team4qa/backend:latest
           ports:
           - name: backend
             containerPort: 9966
