@@ -128,7 +128,9 @@ As a group we decided to use Terraform to build our infrastructure on Azure sinc
 <a name="k8"></a>
 ### Kubernetes
 
-As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is a container orchestration system for Docker containers that is far more complex than Docker Swarm. It comes with more advantages such as allowing us to automate the deployment of a cluster in Azure using Azure Kubernetes Service (AKS). Kubernetes can also seamlessly integrate other services such as load balancing into our pods. This was implemented in our project as we configured an nginx pod to balance traffic coming into the PetClinic website. 
+As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is a container orchestration system for Docker containers that is far more complex than Docker Swarm. It comes with more advantages such as allowing us to automate the deployment of a cluster in Azure using Azure Kubernetes Service (AKS). Kubernetes can also seamlessly integrate other services such as load balancing into our pods. This was implemented in our project as we configured an nginx pod to balance traffic coming into the PetClinic website. Below is a diagram the showcases our K8s cluster:
+
+![Imgur](https://i.imgur.com/NkabNJP.png)
 
 <a name="risk"></a>
 ## Risk Assessment
@@ -136,10 +138,20 @@ As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is
 We carried out a risk assessment to identify all potential risks and problems that may arise during and after the applications deployment. This proved to be very useful as were able to manage our risks to minimise impact and downtime as soon as they occur. Below is a link and screenshot of our risk assessment sheet:
 
 [Risk assessment sheet](#https://docs.google.com/spreadsheets/d/1LwszIy2Nr4v1Tb_zAbwpAS9NzVGlT7_4H69rRMMKo50/edit#gid=0)
+
 ![Imgur]()
 
 <a name="test"></a>
 ## Testing
+
+The tests for the project have been all written previously. As a group, we had to make sure that the testing software was installed and that all tests passed successfully with none failing. The testing software used for the application was Maven. Below is an image to show the results of running the tests:
+
+![Imgur](https://i.imgur.com/7wJ5A5y.png)
+
+As seen above all the tests passed and there was no need for us to step in and edit these tests since they all have been correctly written. Therefore, we decided not to amend the tests as we priortised having a working application and keeping things simple. The two agile principles that helped guide us through this decision were:
+
+- A final working product is the ultimate measure of success
+- Simplicity is an essential element.
 
 <a name="FE"></a>
 ## PetClinic Frontend
@@ -157,14 +169,16 @@ Our aim for the project is to keep deployments costs as low as possible whilst d
 
 We have broken down the estimated costs to deploy the PetClinic application on a monthly basis within Azure. We have displayed the costs of deployment through the 3 saving options (Pay as you go, 1 uear reserved and 3 year reserved:
 
-Pay as you go
+Pay as you go:
 ![Imgur](https://i.imgur.com/iXIvBPd.png)
 
-1yr reserved (55% discount)
+1yr reserved (55% discount):
 ![Imgur](https://i.imgur.com/zT9ijWJ.png)
 
-3yr reserved (70% discount)
+3yr reserved (70% discount):
 ![Imgur](https://i.imgur.com/DENuh5b.png)
+
+
 
 Cost analysis during development (last 7 days):
 ![Imgur](https://i.imgur.com/mCppc8R.png)
