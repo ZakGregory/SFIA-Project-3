@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage('Setup') {
+        /*stage('Setup') {
             steps {
-                //sh "./scripts/setup.sh"
+                sh "./scripts/setup.sh"
             }
         }
         stage('Build'){
@@ -15,7 +15,7 @@ pipeline{
             steps{
              //sh "./scripts/push.sh"
             }
-        }
+        }*/
         stage('Deploy'){
            steps{
                 sh "./scripts/deploy.sh"
