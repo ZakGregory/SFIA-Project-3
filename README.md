@@ -86,6 +86,10 @@ Below is a diagram of the inital CI Pipeline that illustrates the deployment pro
 
 ![Imgur](https://i.imgur.com/bhBzoSN.png)
 
+After adding Nginx as a reverse proxy and include the test stage into the Jenkinsfile our final CI pipeline looks as follows:
+
+![Imgur](https://i.imgur.com/ybJeMo9.png)
+
 <a name="project"></a>
 ### Project Tracking
 
@@ -139,7 +143,7 @@ We carried out a risk assessment to identify all potential risks and problems th
 
 [Risk assessment sheet](#https://docs.google.com/spreadsheets/d/1LwszIy2Nr4v1Tb_zAbwpAS9NzVGlT7_4H69rRMMKo50/edit#gid=0)
 
-![Imgur]()
+![Imgur](https://i.imgur.com/OKVUENk.png)
 
 <a name="test"></a>
 ## Testing
@@ -188,12 +192,19 @@ Cost analysis during development (last 7 days):
 
 Jenkins:
 
+
+
 Terraform:
+
+
 
 Kubernetes (with Docker):
 
+
+
 Agile-driven appraoch:
 
+As a team we closely adhered to following an agile-driven approach to deploying our application. This really helped out streamline the deployment process, keeping it simple yet effective. Agile methods also helped empower each team member to contribute and collaborate with one another to provide the best solution/deliverable. 
 
 <a name="improve"></a>
 ## Future Improvements
@@ -201,13 +212,11 @@ Agile-driven appraoch:
 ### Testing area/vm 
     setting up a proper testing environment before it is deplooyed would be introduced as this would potentially reduce down time for users and allow teh development team to do testing with no knock on effect to the up and running application.
 
-### sleeker automation
+### Sleeker automation
     Make it so that you just have to run a single script to run anad download and set up all environments for easier protiabillity 
 
-### scale sets 
+### Scale sets 
     Intoroduce scale sets so that if teh client was growing in size it would be easier to deploy the app in a larger clusters and other region if teh client was going international. lastly set up auto scaling where teh cluster is monitored and depending on the amount of traffic the app is recieving, scale up and or down the deployment reducing risk of paying for unused resources.
-
-
 
 
 ## Authors
