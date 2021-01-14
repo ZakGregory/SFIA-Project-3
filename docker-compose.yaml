@@ -19,7 +19,7 @@ services:
 
 
   frontend:
-    build: ./front
+    build: ./frontend
     #image: team4qa/frontend:latest
     ports:
     - target: 8080
