@@ -6,7 +6,7 @@ pipeline{
                 sh "./scripts/setup.sh"
             }
         }
-        stage('Build/push'){
+        stage('Build'){
             steps{
                 sh "./scripts/build.sh"
             }
