@@ -30,7 +30,8 @@ spec:
     spec:
       containers:
         - name:  backend
-          image: team4qa/backend:${BUILD_NUMBER}
+          #image: team4qa/backend:${BUILD_NUMBER}
+          image: team4qa/backend:123
           imagePullPolicy: "Always"
           ports:
           - name: backend
