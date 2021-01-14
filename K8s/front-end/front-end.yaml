@@ -20,6 +20,7 @@ metadata:
   labels: 
     app: frontend
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: frontend
@@ -30,7 +31,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: team4qa/frontend
+        image: team4qa/frontend:${BUILD_NUMBER}
+        imagePullPolicy: "Always"
         ports:
         - name: frontend-port
           containerPort: 8080
