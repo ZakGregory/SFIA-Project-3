@@ -2,7 +2,7 @@ version: "3.7"
 services: 
   mysql:
     build: ./database
-    #image: team4qa/database:latest
+    image: team4qa/database:latest
     ports:
     - target: 3306
       published: 3306
@@ -11,7 +11,7 @@ services:
 
   backend:
     build: ./backend
-    #image: team4qa/backend:latest
+    image: team4qa/backend:latest
     ports:
     - target: 9966
       published: 9966
@@ -20,7 +20,7 @@ services:
 
   frontend:
     build: ./frontend
-    #image: team4qa/frontend:latest
+    image: team4qa/frontend:latest
     ports:
     - target: 8080
       published: 8080
