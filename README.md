@@ -81,17 +81,23 @@ MoSCoW prioritisation was used to order our tasks to initially meet the minimum 
 <a name="ci"></a>
 ### CI Pipeline
 
-Below is a diagram of the CI Pipeline that illustrates the deployment process:
+Below is a diagram of the inital CI Pipeline that illustrates the deployment process:
+
+![Imgur](https://i.imgur.com/bhBzoSN.png)
 
 <a name="project"></a>
 ### Project Tracking
 
 The Trello Board was essentially the backbone of our project. It assisted us to define all the tasks that needed to be completed and by when (via the use of sprints). We frequently updated the Trello board to ensure that tasks marked as completed and to check what needs to be done next or what has been missed. A screenshot of our Trello board can be seen below:
 
+![Imgur](https://i.imgur.com/LppL7Tk.png)
+
 <a name="git"></a>
 ### Git
 
 Git was used as a version control system alongside GitHub to store our code in a repository for all members to access. A really useful feature of GitHub is its branch-based workflow system. This allowed us to regularly commit code into separate branches and only merge with the main branch after being reviewed by the team. All branches that have been made were kept and not deleted for the purpose of the project. 
+
+![Imgur](https://i.imgur.com/okAdn0Z.png)
 
 <a name="doc"></a>
 ### Docker
@@ -106,6 +112,8 @@ Jenkins was used as the Continuous integration (CI) server that allowed the appl
 - Single source of truth for the Pipeline, which can be viewed and edited by multiple members
 - Code review/iteration on the Pipeline
 - Audit trail for the Pipeline
+
+![Imgur](https://i.imgur.com/wZ4M5Rk.png)
 
 <a name="tera"></a>
 ### Terraform
