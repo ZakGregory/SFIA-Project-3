@@ -11,7 +11,7 @@ services:
 
   backend:
     build: ./backend
-    image: team4qa/backend:${BUILD_NUM}
+    image: team4qa/backend:${BUILD_NUMBER}
     ports:
     - target: 9966
       published: 9966
@@ -20,7 +20,7 @@ services:
 
   frontend:
     build: ./frontend
-    image: team4qa/frontend:${BUILD_NUM}
+    image: team4qa/frontend:${BUILD_NUMBER}
     ports:
     - target: 8080
       published: 8080
