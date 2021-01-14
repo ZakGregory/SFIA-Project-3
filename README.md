@@ -19,6 +19,7 @@
 - [Risk Assessment](#risk)
 - [Testing](#test)
 - [PetClinic Frontend](#FE)
+- [Pricing](#price)
 - [Successes](#suc)
 - [Future Improvements](#improve)
 
@@ -137,6 +138,29 @@ As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is
 
 <a name="FE"></a>
 ## PetClinic Frontend
+
+<a name="price"></a>
+## Cost Breakdown
+
+Our aim for the project is to keep deployments costs as low as possible whilst delivering the application to the best standard possible. Azure pricing calculator was used to forecast the cost of deploying the application using our chosen tools and services:
+
+- Virtual machine
+- Storage account
+- Azure Kubernetes Service (AKS)
+
+We have broken down the estimated costs to deploy the PetClinic application on a monthly basis within Azure. We have displayed the costs of deployment through the 3 saving options (Pay as you go, 1 uear reserved and 3 year reserved):
+
+Pay as you go
+![Imgur](https://i.imgur.com/iXIvBPd.png)
+
+1yr reserved (55% discount)
+![Imgur](https://i.imgur.com/zT9ijWJ.png)
+
+3yr reserved (70% discount)
+![Imgur](https://i.imgur.com/DENuh5b.png)
+
+Cost analysis during development (last 7 days):
+![Imgur](https://i.imgur.com/mCppc8R.png)
 
 <a name="suc"></a>
 ## Successes
