@@ -32,7 +32,7 @@ spec:
       containers:
       - name: frontend
         #image: team4qa/frontend:${BUILD_NUMBER}
-        image: team4qa/frontend:123
+        #image: team4qa/frontend:123
         imagePullPolicy: "Always"
         ports:
         - name: frontend-port
