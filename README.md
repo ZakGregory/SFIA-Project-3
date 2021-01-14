@@ -139,6 +139,8 @@ As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is
 <a name="FE"></a>
 ## PetClinic Frontend
 
+![Imgur](https://i.imgur.com/GVUDxk8.png)
+
 <a name="price"></a>
 ## Cost Breakdown
 
@@ -148,7 +150,7 @@ Our aim for the project is to keep deployments costs as low as possible whilst d
 - Storage account
 - Azure Kubernetes Service (AKS)
 
-We have broken down the estimated costs to deploy the PetClinic application on a monthly basis within Azure. We have displayed the costs of deployment through the 3 saving options (Pay as you go, 1 uear reserved and 3 year reserved):
+We have broken down the estimated costs to deploy the PetClinic application on a monthly basis within Azure. We have displayed the costs of deployment through the 3 saving options (Pay as you go, 1 uear reserved and 3 year reserved:
 
 Pay as you go
 ![Imgur](https://i.imgur.com/iXIvBPd.png)
@@ -165,8 +167,18 @@ Cost analysis during development (last 7 days):
 <a name="suc"></a>
 ## Successes
 
+Jenkins:
+
+Terraform:
+
+Kubernetes (with Docker):
+
+Agile-driven appraoch:
+
+
 <a name="improve"></a>
 ## Future Improvements
+
 
 
 
