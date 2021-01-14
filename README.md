@@ -130,7 +130,7 @@ As a group we decided to use Terraform to build our infrastructure on Azure sinc
 
 As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is a container orchestration system for Docker containers that is far more complex than Docker Swarm. It comes with more advantages such as allowing us to automate the deployment of a cluster in Azure using Azure Kubernetes Service (AKS). Kubernetes can also seamlessly integrate other services such as load balancing into our pods. This was implemented in our project as we configured an nginx pod to balance traffic coming into the PetClinic website. Below is a diagram the showcases our K8s cluster:
 
-![Imgur](https://i.imgur.com/NkabNJP.png)
+![Imgur](https://i.imgur.com/ybJeMo9.png)
 
 <a name="risk"></a>
 ## Risk Assessment
