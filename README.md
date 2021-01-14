@@ -194,13 +194,9 @@ Jenkins:
 
 
 
-Terraform:
+Effective CI pipeline:
 
-
-
-Kubernetes (with Docker):
-
-
+We were able to create a Jenkins pipeline using all the tools and resouces mentioned in the README to produce fast feedback loops that improved the quality and frequency of deployments. CI pipeline also helped us have greater visibility across the whole build process. If any issues or bugs occured we knew which changes led to the brokerage, enabling us to aviod them reocurring in the future. 
 
 Agile-driven appraoch:
 
