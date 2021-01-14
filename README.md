@@ -133,6 +133,11 @@ As a group we decided to user Kubernetes (K8s) as our orchestration tool. K8s is
 <a name="risk"></a>
 ## Risk Assessment
 
+We carried out a risk assessment to identify all potential risks and problems that may arise during and after the applications deployment. This proved to be very useful as were able to manage our risks to minimise impact and downtime as soon as they occur. Below is a link and screenshot of our risk assessment sheet:
+
+[Risk assessment sheet](#https://docs.google.com/spreadsheets/d/1LwszIy2Nr4v1Tb_zAbwpAS9NzVGlT7_4H69rRMMKo50/edit#gid=0)
+![Imgur]()
+
 <a name="test"></a>
 ## Testing
 
@@ -178,9 +183,6 @@ Agile-driven appraoch:
 
 <a name="improve"></a>
 ## Future Improvements
-
-
-
 
 ## Authors
 - Anas Aboungab
