@@ -20,12 +20,6 @@ metadata:
   labels: 
     app: frontend
 spec:
-  replicas: 2
-  strategy:
-  type: RollingUpdate
-  rollingUpdate:
-    maxSurge: 1
-    maxUnavailable: 25%
   selector:
     matchLabels:
       app: frontend
@@ -40,10 +34,3 @@ spec:
         ports:
         - name: frontend-port
           containerPort: 8080
-          readinessProbe:
-          httpGet:
-             path: /
-             port: 8080
-             initialDelaySeconds: 5
-             periodSeconds: 5
-             successThreshold: 1
