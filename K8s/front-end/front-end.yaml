@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: team4qa/frontend:latest
+        image: team4qa/frontend
         ports:
         - name: frontend-port
           containerPort: 8080
