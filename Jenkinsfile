@@ -8,12 +8,12 @@ pipeline{
         }
         stage('Build'){
             steps{
-               // sh "./scripts/build.sh"
+                sh "./scripts/build.sh"
             }
         }
         stage('Push'){
             steps{
-             //sh "./scripts/push.sh"
+             sh "./scripts/push.sh"
             }
         }*/
         stage('Deploy'){
