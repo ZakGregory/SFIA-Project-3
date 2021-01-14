@@ -88,7 +88,7 @@ Below is a diagram of the inital CI Pipeline that illustrates the deployment pro
 
 After adding Nginx as a reverse proxy and include the test stage into the Jenkinsfile our final CI pipeline looks as follows:
 
-![Imgur](https://i.imgur.com/ybJeMo9.png)
+![Imgur](https://i.imgur.com/TTXvrSv.png)
 
 <a name="project"></a>
 ### Project Tracking
