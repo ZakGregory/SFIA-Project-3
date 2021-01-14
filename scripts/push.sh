@@ -2,4 +2,4 @@
 
 sudo docker login 
 sudo docker-compose push
-docker system prune -a -y
+docker system prune -a -f
